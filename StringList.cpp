@@ -121,8 +121,8 @@ void StringList::move_to_start()
 
 void StringList::move_to_end()
 {
-    currPosPointer = tail;              //Ég hefði viljað hafa það tail->prev en Mooshak var ekki sammála.
-    currPosInt = size;                  //Sömuleiðis hér size - 1...
+    currPosPointer = tail;              
+    currPosInt = size;                 
 }
 
 void StringList::prev()
